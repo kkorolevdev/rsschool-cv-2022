@@ -1,5 +1,5 @@
 # rsschool-cv
 
-https://k-korolev.github.io/rsschool-cv/cv
+MD link: https://k-korolev.github.io/rsschool-cv/cv
 
-https://k-korolev.github.io/rsschool-cv/
+My HTML link: https://k-korolev.github.io/rsschool-cv/
