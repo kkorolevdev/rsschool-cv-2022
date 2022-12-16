@@ -1,2 +1,17 @@
-body {margin:0;padding:0;font-size:16px;background:#fff;color:#000;}
-p {font-size:1.25rem;}
+body {margin:0;padding:0;font-size:16px;font-family: 'Josefin Sans', sans-serif;background:#f1f1f1;color:#000;}
+h2 {margin-top:2rem;border-bottom:1px solid #c1c1c1;}
+h3 {font-size:1.25rem;}
+p {font-size:1rem;}
+pre {font-size:.875rem;}
+.container {max-width:960px;}
+main {margin-top:1.25rem;box-shadow:0 0 10px rgba(0,0,0,0.25);}
+.vox-about {padding:1.25rem;background:#fff;border-bottom:1px solid #e1e1e1;}
+.vox-photo {float:left;margin:0 1.25rem 0 0;}
+.vox-side {padding:1rem;background:#e1e1e1;}
+.vox-main {padding:1rem;background:#fff;}
+footer {margin-top:1.25rem;background:transparent;}
+footer p,
+footer a {font-size:.875rem;}
+.copyright {display:flex;justify-content:flex-start;align-items:center;}
+.school {height:2rem;margin-bottom:1.25rem;display:flex;justify-content:flex-end;align-items:center;}
+.school img {max-height:2rem;margin:0 1rem;}

@@ -8,25 +8,32 @@
     <title>Kirill Korolev Web Developer</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
-    <header class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2>About</h2>
-                <p>Full-stack web developer with 17+ years of experience, expert knowledge of the Opencart platform, and professional education, focused on developing efficient eCommerce products. Passionate to deliver high-quality websites keeping accessibility and usercentered design in mind. Able to scope out next-generation web technologies and trends with a goal of keeping work on pace with technological advancements in the field. </p>
-            </div>
-        </div>
+	<main class="container">
+		<div class="row">
+			<div class="col-12 vox-about">
+				<img class="vox-photo" src="img/kirill-korolev.png" alt="Kirill Korolev">
 
-    </header>
-    <main class="container">
+                <h1>Kirill Korolev</h1>
+                <p>Full-stack web developer with 17+ years of experience, expert knowledge of the Opencart platform, and professional education, focused on developing efficient eCommerce products. Passionate to deliver high-quality websites keeping accessibility and usercentered design in mind. Able to scope out next-generation web technologies and trends with a goal of keeping work on pace with technological advancements in the field. </p>
+			</div>
+		</div>
         <div class="row">
             <div class="col-12 col-lg-4 vox-side">
                 <h2>Contact me</h2>
-                <a href="http://linkedin.com/in/kkorolev/">LinkedIn</a>
-                <a href="https://www.behance.net/kkorolev">Behance</a>
+				<ul>
+					<li><a href="http://linkedin.com/in/kkorolev/">LinkedIn</a></li>
+					<li><a href="https://github.com/k-korolev/">GitHub</a></li>
+					<li><a href="https://www.behance.net/kkorolev/">Behance</a></li>
+				</ul>
 
                 <h2>Skills</h2>
                 <ul>
@@ -48,14 +55,15 @@
                 </ul>
 
                 <h2>Code</h2>
-                <code>
-                    const greating = 'Hello';
-                    const entity = 'World';
-                    console.log(greating + ' ' + entity + '!');
-                </code>
+                <pre>
+const greating = 'Hello';
+const entity = 'World';
+console.log(greating+' '+entity+'!');
+                </pre>
             </div>
-            <div class="col-12 col-lg-4 vox-main">
-                <h2>Relevant Experiencs</h2>
+            <div class="col-12 col-lg-8 vox-main">
+
+                <h2>Relevant Experience</h2>
                 <p>Successfully developed 46 product or eCommerce responsive and search engine friendly websites during the past five years and effectively met client objectives.</p>
                 
                 <h3>Web Designer</h3>
@@ -98,11 +106,15 @@
     <footer class="container">
         <div class="row">
             <div class="col-12 col-lg-4">
-                <a href="https://github.com/k-korolev/">github.com/k-korolev</a>
+				<div class="copyright">
+					<p>&copy; 2022, <a href="https://github.com/k-korolev/">github.com/k-korolev</a></p>
+				</div>
             </div>
             <div class="col-12 col-lg-8">
-                <img src="img/rs_school_js.svg" alt="RS school logo">
-                <a href="https://rs.school/js-stage0/">Подготовительный курс &laquo;JavaScript/Front-end. Stage 0&raquo;</a>
+                <div class="school">
+                    <a href="https://rs.school/js-stage0/">&laquo;JavaScript/Front-end. Stage 0&raquo;</a>
+					<img src="img/rs_school_js.svg" alt="RS school logo">
+                </div>
             </div>
         </div>
     </footer>
